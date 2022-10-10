@@ -4,10 +4,19 @@ A small project that removes Exif metadata from images that are stored in an s3 
 
 ## Installation
 
-Use the Dockerfile to build and run the python application.
+Download the following dependencies to run the application locally.
 
 ```bash
-docker build -t remove-exif
+pip install boto3
 ```
 ```bash
-docker run -d remove-exif
+pip install Pillow 
+```
+
+## Usage
+
+
+```bash
+python main.py
+```
+
